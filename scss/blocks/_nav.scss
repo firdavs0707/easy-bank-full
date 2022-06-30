@@ -1,0 +1,24 @@
+.nav__list {
+  // list-style-type: none;
+  // margin: 0;
+  // padding: 0;
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.nav__item {
+  margin-right: 30px;
+}
+
+.nav__item--last {
+  margin: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #9597a5;
+}
