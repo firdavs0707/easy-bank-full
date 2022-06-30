@@ -748,6 +748,10 @@ body {
   margin-bottom: 16px;
 }
 
+.header__invite-button:hover{
+  opacity:0.4;
+}
+
 .last-text{
   font-family: 'PublicSans';
   font-size: 15px;
